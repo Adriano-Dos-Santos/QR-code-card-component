@@ -9,28 +9,21 @@ body {
     height: 100vh;
     font-size: 15px;
     background-color: var(--light-gray);
-}
-
-.container {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card {
+main {
+    text-align: center;
     background-color: var(--white);
     width: 355px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     border-radius: 20px;
     padding: 1.3em;
 }
 
 h3 {
     font-size: 1.8rem;
-    margin-bottom: -0em;
 }
 
 p {
@@ -38,7 +31,7 @@ p {
     color: var(--grayish-blues);
 }
 
-.card img {
+main img {
     max-width: 100%;
     border-radius: 20px;
 }
